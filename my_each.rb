@@ -8,6 +8,6 @@ def my_each(array) # put argument(s) here
  end
 
 collection = [1, 2, 3, 4]
-collection.my_each do | i |
+my_each(collection) do | i |
   puts i
 end
